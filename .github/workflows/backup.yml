@@ -24,7 +24,7 @@ jobs:
         env:
           POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
           POSTMAN_WORKSPACE_ID: ${{ secrets.POSTMAN_WORKSPACE_ID }}
-        run: node index.js
+        run: node app.js
 
       - name: Commit and push changes
         run: |
