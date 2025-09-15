@@ -35,4 +35,4 @@ jobs:
           git add .
           git commit -m "Daily backup $(date)" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
-          git push origin HEAD:main
+          git push origin HEAD:master
