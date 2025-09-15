@@ -5,6 +5,9 @@ on:
     - cron: '11 0 * * *'  # Runs daily at 11pm UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+  
 jobs:
   backup:
     runs-on: ubuntu-latest
