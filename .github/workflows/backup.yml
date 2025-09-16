@@ -2,7 +2,7 @@ name: Daily Postman Backup
 
 on:
   schedule:
-    - cron: '11 0 * * *'  # Runs daily at 11pm UTC
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC???
   workflow_dispatch:
 
 permissions:
